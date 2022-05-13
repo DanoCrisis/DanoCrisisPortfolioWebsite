@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One&family=Permanent+Marker&family=Special+Elite&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Marker&family=Special+Elite&family=Yeseva+One&display=swap');
+
+
+.background {
+    background-image: url("images/dinocrisiswallpaper.jpg");
+    background-color: gray;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar a {
+    font-size: 25px;
+    color: darkred;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Passion One', cursive;
+}
+
+.navbar a:hover{
+    color:rgb(27, 5, 107);
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.navboxed {                             
+    box-sizing: border-box; 
+    border-color: black;      
+    border-style: solid;        
+    padding: 10px;
+    background-color: rgba(231, 148, 15, 0.5);
+    }
+
+
+
+
+#namestyle{
+    font-size: 75px;
+    text-align: center;
+    color: darkred;
+    font-family: 'Permanent Marker', cursive;
+    box-sizing: border-box;
+    border-color:  rgba(0,0,0,0.5);     
+    border-style: solid;        
+    padding: 7px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+h1 { 
+    color: darkmagenta;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    }
+
+h2 { 
+    color: darkmagenta;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    }
+
+h3 { 
+    color: rgb(220, 20, 60);
+    text-align: left;
+    font-family: 'Yeseva One', cursive;
+    }
+
+p {
+    color: burlywood; 
+    font-family: 'Special Elite', cursive;
+}
+
+ul {
+    color: burlywood; 
+    font-family: 'Special Elite', cursive;
+}
+
+
+.spacing img{
+    padding: 10px 20px 10px 20px;
+}
+
+.leftimagep img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftimagep {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.leftimage img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftimage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.rightimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.rightimage img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top:-300px
+}
+
+.rightimageadj {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.rightimageadj img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top:-250px
+}
+
+.boxedep {                             
+    box-sizing: border-box; 
+    border-color: black;      
+    border-style: solid;        
+    padding: 15px 15px 40px 15px;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+.boxedep img {
+    padding: 30px;
+}
+
+.boxed {                             
+    box-sizing: border-box; 
+    border-color: black;      
+    border-style: solid;        
+    padding: 15px;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+.boxed img {
+    padding: 30px;
+}
+
+.boxedsmall {                          
+    box-sizing: border-box;
+    border-color:  rgba(0,0,0,0.5);     
+    border-style: solid;        
+    padding: 7px;
+    background-color: rgba(0,0,0,0.8);
+    }
+
+
+
+.buttondec {
+    color:gold;
+    font-weight: 900;
+    font-size: 30px;
+    background-color: black;
+    font-family: 'Passion One', cursive;
+}
+
+.buttonpos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px   
+}
+
+.buttondec:hover{
+    color:gold;
+    font-weight: 900;
+    font-size: 38px;
+    background-color: darkred;
+    font-family: 'Passion One', cursive;
+    cursor:pointer;
+}
